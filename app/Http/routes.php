@@ -53,4 +53,4 @@ Route::post('auth/register', 'Auth\AuthController@postRegister');
 //tasks get/post/delete
 Route::get('/tasks', 'TaskController@index');
 Route::post('/task', 'TaskController@store');
-Route::delete('/task/{task}', 'TaskController@destroy');
+Route::delete('/task/{taskId}', 'TaskController@destroy');
